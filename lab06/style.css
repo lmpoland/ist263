@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2{
+    color: darkgreen;
+}
+.special{
+    color:purple
+}
+.evenrow{
+    background-color:silver;
+}
+h1{
+    font-size: 1.75em;
+}
+h2{
+    font-size: 1.25em;
+}
