@@ -26,3 +26,8 @@ nav{
 nav a:hover{
     background-color: #DBBBB7;
 }
+@media only screen and (max-width: 920px) {
+    nav{max-width: 100%;}
+    nav a{display: block; margin-top: 3px;}
+    span{display:none;}
+}
