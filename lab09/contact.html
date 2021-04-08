@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        <title>Contact</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            div{margin: 20px;}
+            .clearclass{clear:both;}
+            .box1, .box2{border: 1px solid white;
+                background-color: white; border-radius: 1em}
+            .address{float: left;
+                margin: 0px 30px 10px 10px}
+            .box2{display: flex;}
+            .form, .map{flex: 1;}
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="skills.html">Skills</a> |
+            <a href="contact.html">Contact</a> |
+        </nav>
+        
+        <h1>Contact</h1>
+
+        <div class="box1">
+            <div class="address">
+                <h2>Address</h2>
+                <p>Leah Poland<br>
+                    405 University Place<br>
+                    Syracuse, NY 13244
+                </p>
+            </div>
+            
+            <div class="links">
+                <p><a href="mailto:lmpoland@syr.edu">lmpoland@syr.edu</a></p>
+
+                <p>
+                <a href="https://www.linkedin.com/in/leahpoland/" target="-blank"><img src="../images/logo-sized.png" alt="LinkedIn logo"></a>
+                <a href="https://www.linkedin.com/in/leahpoland/" target="_blank">My LinkedIn Profile</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="clearclass"></div>
+
+        <div class="box2">
+            <div class='form'>
+                <h2>Contact information</h2>
+
+                <form action="mailto:lmpoland@syr.edu" method="POST">
+
+                    <label for="firstname">Name:</label>
+                        <input type="text" name="firstname" id="firstname"> <br>
+
+                    <p>Preferred method</p>
+
+                    <input type="radio" name="phonenumber" id="phonenumber" value="Phone Number">
+                    <label for="phonenumber">Phone Number</label>
+                    <input type="radio" name="email" id="email" value="email">
+                    <label for="email">Email</label>
+                    <br><br>
+
+                    <label for="message">Message</label><br>
+                        <textarea name="message" id="message" rows="10" cols="50">Type your message and preferred email address or phone number</textarea> <br>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.0861478881534!2d-76.13084630000003!3d43.03961890000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3754c82b97b%3A0xa1a5eec56ddb8a56!2sWatson%20hall%2C%20405%20University%20Pl%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1614265995500!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br>
+            </div>
+        </div>
+    </body>
+</html>
