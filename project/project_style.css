@@ -1,0 +1,21 @@
+body{
+    background-color: #dee4de;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{
+    display: block;
+    padding: 8px;
+    font-size: 1.25em;
+    margin:auto;
+    width: 50%;
+}
+nav a{
+    display: inline;
+    padding: 8px;
+    background-color: #f5d6d4; 
+    color: #22351f;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #ffb0aa;
+}
