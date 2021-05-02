@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <title>Tutorial</title>
@@ -33,6 +33,15 @@
             }
             @media only screen and (max-width: 600px) {
                 aside{display: none;}
+                #mobile{
+                    display:block;
+                    max-width: 100%;
+                }
+            }
+            @media only screen and (min-width: 600px) {
+                #mobile{
+                    display:none;
+                }
             }
         </style>
     </head>
@@ -48,6 +57,10 @@
 
         <h1>Ribbed Crochet Hat Tutorial</h1>
 
+        <img src="media/mobileintro.jpg" alt="hooked on hats: how to crochet" id="mobile">
+
+        <h2>Materials:</h2>
+
         <aside>
             <div class="portrait">
                 <img src="media/intro.jpg" alt="portrait">
@@ -56,8 +69,6 @@
                 <p>Welcome! I am Leah, a college student, crafter, and lover of making projects to wear. I enjoy crocheting, sewing, and jewelry making. I hope you like my page and are inspired to make something new!</p>
             </div>
         </aside>
-
-        <h2>Materials:</h2>
 
         <main>
             <div class="intro">
