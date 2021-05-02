@@ -4,17 +4,44 @@
         <meta charset="utf-8">
         <title>Tutorial</title>
         <link rel="stylesheet" href="project_style.css">
-    </head>
+        <style>
+            aside{
+                width: 300px;
+                padding: 5px;
+                float: right;
+                margin: 10px;
+                background-color: #f5d6d4;
+            }
+            .clear{clear: both;}
+            main img{
+                margin: 20px;
+                max-width: 100%;
+            }
+            main{
+                margin: 10px;
+                margin-right:50px;
+            }
+            .intro{
+                max-width: 700px;
+                margin: 10px;
+            }
+            @media only screen and (max-width: 600px) {
+                aside{display: none;}
+            }
+        </style>
     </head>
     <body>
         <header>
-            <img src="media/topbanner.jpg" alt="site banner">
+            <img src="media/topbanner.jpg" alt="site banner" id="bannerimg">
         </header>       
         <nav>
             <a href="page-1.html">Home</a>
             <a href="page-2.html">Tutorial</a>
             <a href="page-3.html">Resources</a>
         </nav>
+
+        <h1>Ribbed Crochet Hat Tutorial</h1>
+
         <aside>
             <div class="portrait">
                 <img src="media/intro.jpg" alt="portrait">
@@ -23,10 +50,12 @@
                 <p>Welcome! I am Leah, a college student, crafter, and lover of making projects to wear. I enjoy crocheting, sewing, and jewelry making. I hope you like my page and are inspired to make something new!</p>
             </div>
         </aside>
-        <figure></figure>
+
+        <h2>Materials:</h2>
+
         <main>
             <div class="intro">
-                <h2>Materials:</h2>
+                
                 <ul>
                     <li>DK/worsted weight yarn</li>
                     <li>Size I/5.5 mm crochet hook</li>
@@ -45,6 +74,10 @@
                 </p>
             </div>
 
+            <div class="clear"></div>
+
+            <h2>Instructions:</h2>
+
             <ol>                
                 <li>Chain 45 stitches.
                     <ul>
@@ -58,6 +91,8 @@
                         <li>We slip stitch the last three stitches on the top end of the hat to give it a tapered shape.
                         </li>
                     </ul>
+                    <img src="media/firsthdc.jpg" alt="first half double crochet">
+                    <img src="media/taper.jpg" alt="end of first row">
                 </li>
                 
                 <li>Slip stitch into the back loop only of the next three stitches. HDC into the back loops all the way down the row. HDC into both loops of the last stitch. Chain 2 and turn. 
@@ -65,36 +100,27 @@
                         <li>Crocheting in the back loop only gives the hat a ribbed texture, but you could crochet into both loops to get a different look.
                         </li>
                     </ul>
+                    <img src="media/backloop.jpg" alt="backloop of crochet row">
+                    <img src="media/secondrow.jpg" alt="end of second row">
                 </li>
 
-                <li>HDC back loop only down the row, stopping before the last 3 stitches. Slip stitch the last 3 stitches back loop only. Chain 1 and turn the piece.</li>
+                <li>HDC back loop only down the row, stopping before the last 3 stitches. Slip stitch the last 3 stitches back loop only. Chain 1 and turn the piece.
+                    <img src="media/top.jpg" alt="tapered end">
+                </li>
 
                 <li>Repeat steps 3 and 4 until you have a long rectangle with a tapered top, about 18 inches long. 
                     <ul>
                         <li>Wrap the piece around your head to determine if you need to add more rows or unravel some. The tension throughout the piece and properties of the yarn can impact how much stretch the hat will have, so make adjustments as needed.
                         </li>
                     </ul>
+                    <img src="media/rectangle.jpg" alt="Keep adding rows until rectangle is about 18 inches long">
                 </li>
 
                 <li>To form the hat into a tube, slip stitch the sides together, being sure to match up the stitches evenly. Pull the yarn from the top of the hat to tighten it and tie a knot and weave in any loose ends into the hat.
+                    <br><img src="media/tophat.jpg" alt="top of hat">
+                    <img src="media/finalhatsmall.jpg" alt="Finished crocheted hat">
                 </li>
-            </ol>
-
-            <img src="media/chain.jpg" alt="crochet chain in red yarn"> <!-- before step one-->
-
-            <img src="media/firsthdc.jpg" alt="first half double crochet">
-            <img src="media/taper.jpg" alt="end of first row"> <!-- before step 2-->
-
-            <img src="media/backloop.jpg" alt="backloop of crochet row">
-            <img src="media/secondrow.jpg" alt="end of second row"> <!-- before step 3-->
-
-            <img src="media/top.jpg" alt="tapered end"><!-- before step 4-->
-
-            <img src="media/rectangle.jpg" alt="Keep adding rows until rectangle is about 18 inches long"><!-- before step 5-->
-            
-            <img src="media/tophat.jpg" alt="top of hat">
-            <img src="media/finalhat.jpg" alt="Finished crocheted hat"><!-- before step 6-->
-     
+            </ol>     
         </main>
 
         <div class="footer">
@@ -105,8 +131,8 @@
                     <a href="https://www.facebook.com/leah.poland.77"><img src="media/facebook.png" alt="Facebook"></a>
                     <a href="mailto:lmpoland@syr.edu"><img src="media/email.png" alt="Email"></a>
                 </div>
-                <div class="quote">
-                    <p>“Start where you are. Use what you have. Do what you can.” – Arthur Ashe</p>
+                <div class="copy">
+                    <p>&copy; Leah Poland 2021</p>
                 </div>
             </footer>
         </div>    

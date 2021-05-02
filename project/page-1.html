@@ -5,40 +5,50 @@
         <title>Hooked on Hats</title>
         <link rel="stylesheet" href="project_style.css">
         <style>
-            
+            aside{
+                width: 300px;
+                padding: 5px;
+                float: right;
+                margin: 10px;
+                background-color: #f5d6d4;
+            }
+            .clear{clear: both;}
+            .brother{
+                border: 1px solid white;
+                background-color: white; border-radius: 1em;
+                padding: 20px;
+                max-width: 500px;
+            }
+            .brother img{
+                margin: auto;
+                display: block;
+                max-width: 100%;
+            }
+            main{
+                margin: 10px;
+            }
+            #mobile{display: none;}
+            @media only screen and (max-width: 920px) {
+                aside{display:none;}
+                #mobile{
+                    display:block;
+                    max-width: 100%;;
+                }
+            }
         </style>
     </head>
     <body>
         <header>
-            <img src="media/topbanner.jpg" alt="site banner">
+            <img src="media/topbanner.jpg" alt="site banner" id="bannerimg">
         </header>
         <nav>
             <a href="page-1.html">Home</a>
             <a href="page-2.html">Tutorial</a>
             <a href="page-3.html">Resources</a>
         </nav>
-        <main>
-            <h2>Welcome!</h2>
-            <p>
-                Hello! My name is Leah and I have had a love for arts and crafts since I was a child. As I grew up and got busier, creating got put on the backburner. Now in my sophomore year of college, I have had significantly more freetime at home due to the pandemic that inspired me to get crafty again. I would spend days making friendship bracelets, sewing masks and clothes, painting, and learning how to knit and crochet. 
-            </p>
-            <p>
-                I have come to love crocheting and will keep going until my hands are sore. <strong>Once you learn how to do the basic stitches and read patterns, it is an easy and entertaining pastime that keeps my restless hands busy when so much is going on in the world.</strong> Crocheting brings me that relaxation and focus that I tend to lack when I get bored. I always look forward to being able to sit down with a TV show, podcast, or music and see how I can create a handmade object just from a hook and string of yarn.
-            </p>
-            <p>
-                I am so happy that other young people, such as myself are finding the time to make crafts and share them with the world. It is so inspiring to see guys and girls alike on TikTok, Instagram, and YouTube sharing their creations and all the cool and trendy pieces they make. I am very interested in the movement towards slow fashion and choosing the possessions we have in a conscious and ethical way. For me, crocheting is a fantastic way to give back to loved ones and those in need. 
-            </p>
-            <div>
-                <img src="media/brother.jpg" alt="brother wearing crochet hat">
-                <p>My brother loves wearing this hat that I made for him</p>
-            </div>
-            <p>
-                The first crochet project I ever made was a ribbed hat. As a complete beginner to working with yarn, my first hat looked pretty horrible and I probably redid it at least three times. It was made with the most affordable yarn you can buy at any craft store and took me hours, but seeing a wearable hat made out of nothing but a ball of yarn made me feel so accomplished. Handmade hats and gloves are a great way to give someone a little warmth and happiness.I have since made many hats to donate to local charities that take cold weather clothing. 
-            </p>
-            <p>
-                I hope that this blog inspires you to explore your creativity and share in the passion of crafting!
-            </p>
-        </main>
+        
+        <h1>Welcome!</h1>
+
         <aside>
             <div class="portrait">
                 <img src="media/intro.jpg" alt="portrait">
@@ -47,6 +57,35 @@
                 <p>Welcome! I am Leah, a college student, crafter, and lover of making projects to wear. I enjoy crocheting, sewing, and jewelry making. I hope you like my page and are inspired to make something new!</p>
             </div>
         </aside>
+
+        <main>
+            <img src="media/mobileintro.jpg" alt="hooked on hats: how to crochet" id="mobile">
+            <p class="firstp">
+                Hello! My name is Leah and I have had a love for arts and crafts since I was a child. As I grew up and got busier, creating got put on the backburner. Now in my sophomore year of college, I have had significantly more freetime at home due to the pandemic that inspired me to get crafty again. I would spend days making friendship bracelets, sewing masks and clothes, painting, and learning how to knit and crochet.
+            </p>
+            <p class="secondp">
+                I have come to love crocheting and will keep going until my hands are sore. <strong>Once you learn how to do the basic stitches and read patterns, it is an easy and entertaining pastime that keeps my restless hands busy when so much is going on in the world.</strong> Crocheting brings me that relaxation and focus that I tend to lack when I get bored. I always look forward to being able to sit down with a TV show, podcast, or music and see how I can create a handmade object just from a hook and string of yarn.
+            </p>
+            
+            <div class="brother">
+                <img src="media/brother.jpg" alt="brother wearing crochet hat">
+                <p>My brother loves wearing this hat that I made for him</p>
+            </div>
+
+            <p class="thirdp">
+                The first crochet project I ever made was a ribbed hat. As a complete beginner to working with yarn, my first hat looked pretty horrible and I probably redid it at least three times. It was made with the most affordable yarn you can buy at any craft store and took me hours, but seeing a wearable hat made out of nothing but a ball of yarn made me feel so accomplished. Handmade hats and gloves are a great way to give someone a little warmth and happiness.I have since made many hats to donate to local charities that take cold weather clothing. 
+            </p>
+            <p class="fourthp">
+                I am so happy that other young people, such as myself are finding the time to make crafts and share them with the world. It is so inspiring to see guys and girls alike on TikTok, Instagram, and YouTube sharing their creations and all the cool and trendy pieces they make. I am very interested in the movement towards slow fashion and choosing the possessions we have in a conscious and ethical way. For me, crocheting is a fantastic way to give back to loved ones and those in need. 
+            </p>
+            <p class="fifthp">
+                I hope that this blog inspires you to explore your creativity and share in the passion of crafting!
+            </p>
+        </main>
+
+        <div class="clear"></div>
+
+       
         <div class="footer">
             <footer>
                 <div class="links">
@@ -55,8 +94,8 @@
                     <a href="https://www.facebook.com/leah.poland.77"><img src="media/facebook.png" alt="Facebook"></a>
                     <a href="mailto:lmpoland@syr.edu"><img src="media/email.png" alt="Email"></a>
                 </div>
-                <div class="quote">
-                    <p>“Start where you are. Use what you have. Do what you can.” – Arthur Ashe</p>
+                <div class="copy">
+                    <p>&copy; Leah Poland 2021</p>
                 </div>
             </footer>
         </div>
