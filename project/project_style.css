@@ -49,7 +49,7 @@ footer{
     padding: 10px;
 }
 .links img{
-    padding: 3px;
+    padding: 5px;
 }
 .links img:hover{
     border: 2px solid #ffb0aa;
@@ -77,4 +77,17 @@ h1{
 #skipbutton:focus{
     position: absolute;
     left: 10px;
+}
+.scroll{
+    margin: 15px;
+    float: right;
+    background-color: #7394c9;
+    border:none;
+    padding: 4px;
+    border: 1px solid #7394c9;
+    font-size: 1em;
+}
+.scroll:hover{
+    background-color: #aabddb;
+    border: 1px solid #7394c9;
 }

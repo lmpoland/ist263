@@ -32,6 +32,27 @@
                 padding: 10px;
                 border-radius: .5em;
             }
+            .image{
+                float: right;
+                max-width: 100%;
+                margin-top: 30px;
+                margin-left: 30px;
+            }
+            .clear{clear:both;}
+            @media only screen and (max-width: 980px) {
+                #largeimg{
+                    display: block;
+                    max-width: 100%;
+                }
+                .image{
+                    display: none;
+                }
+            }
+            @media only screen and (min-width: 980px) {
+                #largeimg{
+                    display:none;
+                }
+            }
         </style>
     </head>
 
@@ -51,13 +72,18 @@
         </nav>
 
         <main>
-
         <h1>Where to Donate</h1>
 
         <a id="maincontent"></a>
+        
+        <div class="image">
+            <img src="media/finalhatsmall.jpg" alt="red crochet hat">
+        </div>
+
+        <img src="media/finalhat.jpg" alt="red crochet hat" id="largeimg">
 
         <p>I recommend finding local organizations that accept handmade donations of cold-weather clothing and accessories, especially if you live in a colder climate. Look within your community to see where help is needed.</p>
-        <p><u>Some places to look:</u></p>
+        <h3><u>Where to look locally:</u></h3>
             <ul>
                 <li>Churches</li>
                 <li>Community centers</li>
@@ -66,11 +92,16 @@
                 <li>Refugee centers</li>
                 <li>Schools</li>
             </ul>
-        <p>Other national organizations such as <a href="https://www.projectlinus.org/">Project Linus</a>  take blankets. Why stop at hats and blankets when you can make stuffed animals, gloves, sweaters and other heartwarming items?</p>
+
+        <h3><u>Where to look nationally:</u></h3>
+            <ul>
+                <li><a href="https://www.projectlinus.org/">Project Linus</a> accpets blankets for children in need</li>
+                <li><a href="https://www.knotsoflove.org/">Knots of Love</a> accepts hats and blankets for cancer patients</li>
+                <li><a href="https://warmupamerica.org/make/current-needs/">Warm up America</a> accepts accessories and 7" x 9" crochet sections</li>
+                <li><a href="https://www.operationgratitude.com/express-your-thanks-virtual/handmade-with-love/">The Handmade with Love Project at Operation Gratitude</a> accepts hats and scarves for veterans and troops</li>
+            </ul>
         
-        <div class="image">
-            <img src="media/finalhat.jpg" alt="red crochet hat">
-        </div>
+        <div class="clear"></div>
 
         <div class="box">
             <h2>Contact Me</h2>
@@ -87,7 +118,22 @@
                 <input type="submit" value="Send">
             </form>
         </div>
-    </main>
+
+       
+
+    </main> 
+    
+        <button onclick="scrollToTop()" class="scroll">
+            Scroll to top &#129045;
+        </button>
+        <script>
+            function scrollToTop() {
+                window.scrollTo(0, 0);
+            }
+        </script> <!-- javascript source from https://www.geeksforgeeks.org/scroll-to-the-top-of-the-page-using-javascript-jquery/ -->
+
+        <div class="clear"></div>
+
         <div class="footer">
             <footer>
                 <div class="links">
