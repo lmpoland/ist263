@@ -86,6 +86,7 @@ h1{
     padding: 4px;
     border: 1px solid #7394c9;
     font-size: 1em;
+    display: block;
 }
 .scroll:hover{
     background-color: #aabddb;
